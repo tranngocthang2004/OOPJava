@@ -16,7 +16,7 @@ public class bai3silde93 {
         System.out.println(" ban "+ ten+ "o do tuoi truong thanh");
     }
     else {
-        System.out.println("ban "+ ten +"da gia");
+        System.out.println("ban "+ ten +" da gia");
     }
     }
 }
