@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class tinhtongcacchuso {
+public class silde30 {
      public static int sum (int a ){
         if (a<10) return a;
         return sum(a/10)+sum(a%10);
