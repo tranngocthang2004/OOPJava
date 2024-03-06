@@ -1,3 +1,4 @@
+package Chuong2;
 import java.util.Scanner;
 
 public class silde30 {
@@ -15,3 +16,4 @@ public static void main(String[] args) {
     System.out.println("tong cac chu so la:" + tong); 
        }
 }
+
