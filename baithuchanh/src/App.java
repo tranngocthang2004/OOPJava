@@ -1,6 +1,6 @@
 import Chuong3.HinhChuNhat;
-import Chuong3.HinhTron;
 import Chuong3.Person;
+
 
 public class App {
         public static void main(String[] args) throws Exception {

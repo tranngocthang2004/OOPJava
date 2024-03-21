@@ -20,7 +20,7 @@ public class Person {
         System.out.print("\nTuoi"+(2024-year));
    }
    public void InThongTin(){
-        System.out.print("\nHo ten: "+HoTen);
+        System.out.println("\nHo ten: "+HoTen);
         System.out.print("\nSo CCCD: "+SoCCCD);
         System.out.print("\nTuoi"+(2024-NamSinh));
    }
