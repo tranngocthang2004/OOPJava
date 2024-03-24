@@ -7,8 +7,10 @@ public class EmployeeFulltime extends Employee{
     public final float TienXang=200000f;
     public final float TienAn=1500000f;
     Scanner sc = new Scanner(System.in);
-    public void NhapNgayLamViec(){
-        System.out.print("So ngay lam viec: ");
+    public void NhapThongTin(){
+        super.NhapThongTin();
+        do{System.out.print("Nhap so ngay lam viec: ");}
+        while (NgayLamViec>31|| NgayLamViec<0);
         NgayLamViec=sc.nextInt();
     }
     public void TinhLuong(){

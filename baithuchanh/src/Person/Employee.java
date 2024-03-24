@@ -11,20 +11,13 @@ public class Employee extends Person {
     public float Luong;
     Scanner sc= new Scanner(System.in);
     public void NhapThongTin(){
-        System.out.print("Ho va Ten: ");
-        HoTen= sc.nextLine();
-        System.out.print("So CCCD: ");
-        SoCCCD=sc.nextLine();
-        System.out.print("Tuoi: ");
-        Tuoi=sc.nextInt();
-        sc.nextLine();
+        super.NhapThongTin();
         System.out.print("MaNhanVien: ");
         MaNhanVien=sc.nextLine();
     }
-    public void XuatThongTin(){
-        System.out.print("============="+HoTen+"=============");
-        System.out.println("\nSoCCD: "+SoCCCD);
-        System.out.println("Tuoi: "+Tuoi);
+    public void InThongTin(){
+        super.InThongTin();
+        System.out.println("Ma nhan vien: "+MaNhanVien);
         System.out.println("Luong= "+Luong);
     }
 }
