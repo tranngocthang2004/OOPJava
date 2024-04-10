@@ -8,11 +8,11 @@ public class Person {
     public int Tuoi;
     Scanner sc = new Scanner(System.in);
     public void NhapThongTin(){
-        System.out.println("Nhap ho ten: ");
+        System.out.print("Nhap ho ten: ");
         HoTen=sc.nextLine();
-        System.out.println("Nhap so CCCD: ");
+        System.out.print("Nhap so CCCD: ");
         SoCCCD=sc.nextLine();
-        System.out.println("Nhap tuoi: ");
+        System.out.print("Nhap tuoi: ");
         Tuoi=sc.nextInt();
     }
     public void InThongTin(){
