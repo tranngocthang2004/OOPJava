@@ -12,7 +12,7 @@ public class HinhChuNhat {
         dai = sc.nextFloat();
         System.out.println("chieu rong  = ");
         rong = sc.nextFloat();
-        //sc.close();
+        //sc.close();l
     }
     public void InThongTin()
     {

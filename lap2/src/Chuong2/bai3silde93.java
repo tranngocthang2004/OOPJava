@@ -1,3 +1,5 @@
+package Chuong2;
+
 import java.util.Scanner;
 
 public class bai3silde93 {
