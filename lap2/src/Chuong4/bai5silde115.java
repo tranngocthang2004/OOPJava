@@ -22,7 +22,7 @@ public class bai5silde115 {
         lop=sc.nextLine();
        for(SinhVien1 sv : danhsachsinhvien.values()){
             if(sv.Lop.equals(lop)){
-                System.out.println(sv);
+                sv.inThongTin();
                 timthay=true;
             }
        }
